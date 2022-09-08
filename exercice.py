@@ -23,21 +23,23 @@ def average(values):
 			sum_v+= v
 			positive_nb+=1
 
-		else: print('toutes les valeurs sont négatives')
-
 	moyenne= sum_v/positive_nb
 
 	return moyenne
 	# La variable v contient une valeur de la liste.
 
 def bills(value):
-	# TODO: Calculez le nombre de billets de 20$, 10$ et 5$ et pièces de 1$ à remettre pour représenter la valeur.
+
+
+
 	while value != 0:
 		if value >= 20:
-			billet_de_20 = value // 20
+
 
 		elif value >= 10:
 			billet_de_10 = value // 10
+			print('test2')
+
 
 		elif value >= 5:
 			billet_de_5 = value // 5
