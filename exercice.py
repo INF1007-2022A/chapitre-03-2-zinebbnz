@@ -30,10 +30,10 @@ def average(values):
 
 def bills(value):
 
-
-
 	while value != 0:
+
 		if value >= 20:
+			billet_de_20= value //20
 
 
 		elif value >= 10:
